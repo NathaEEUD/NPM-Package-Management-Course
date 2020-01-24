@@ -4,11 +4,12 @@ const messages = [
   `Fail. Fail again. Fail better.`,
   `Walking is a perfectly valid solution to traffic congestion problems.`,
   `The most delicious cocktails often have the highest alcohol content. Always pace yourself to preserve your dignity.`,
-  `If it still itches after a week, go to the doctors.`
+  `If it still itches after a week, go to the doctors.`,
+  `Don't put off breaking up with someone when you know you want to. Prolonging the situation only makes it worse.`
 ];
 
 const randomMsg = () => {
-  const message = messages[Math.floor(Math.random() * messages, length)];
+  const message = messages[Math.floor(Math.random() * messages.length)];
   console.log(message);
 };
 
